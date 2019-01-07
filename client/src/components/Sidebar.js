@@ -40,6 +40,7 @@ class Sidebar extends Component {
 					{this.showAddrComp(store.street, ',')} {this.showAddrComp(store.town, ',')} {this.showAddrComp(store.postcode, <br />)}
 					{this.showTelephone(store.phone)}
 				</address>
+				<p style={{ marginBottom: '0px' }}>{store.distance.toFixed(2)} miles away</p>
 			</div>
 		);
 	}
