@@ -1,0 +1,30 @@
+{
+  "name": "vsrf",
+  "version": "1.0.0",
+  "description": "Vegan Sausage Roll Finder using data from Greggs API",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "pg": "^7.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "migrate": "node db/migrate_seed.js",
+    "build": "cd client && npm install && npm run build",
+    "heroku-postbuild": "npm run migrate && npm run build"
+  },
+  "author": {
+    "name": "jackcutting",
+    "email": "me@jackcutting.co.uk",
+    "url": "https://github.com/jackcutting"
+  },
+  "homepage": "https://github.com/jackcutting/vsrf/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackcutting/vsrf.git"
+  },
+  "license": "MIT"
+}
