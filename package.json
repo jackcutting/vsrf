@@ -13,8 +13,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "migrate": "node db/migrate_seed.js",
-    "build": "cd client && npm install && npm run build",
-    "heroku-postbuild": "npm run migrate && npm run build"
+    "local-build": "cd client && npm install && npm run build",
+    "heroku-postbuild": "npm run migrate && cd client && npm install && npm run build"
   },
   "author": {
     "name": "jackcutting",
