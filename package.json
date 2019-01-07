@@ -26,5 +26,8 @@
     "type": "git",
     "url": "git+https://github.com/jackcutting/vsrf.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": "10.15.0"
+  }
 }
