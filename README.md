@@ -2,7 +2,7 @@
 
 ## Example
 
-To view an example of the application, simply go to: INSERT HEROKU URL
+To view an example of the application, simply go to: [https://www.vegansausagerollfinder.co.uk/](https://www.vegansausagerollfinder.co.uk/)
 
 ## Getting Started
 
